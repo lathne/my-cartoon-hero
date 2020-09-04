@@ -14,28 +14,45 @@ header {
 
 h1 {
 	font-size: 90px;
-	color: #111111;
-	text-shadow: 2px 2px rgba(0,0,0,.3);
+	text-shadow: 2px 2px rgba(0,0,0,.4);
 }
 
 header img {
 	width: 300px;
 	height: 300px;
 	border-radius: 179px;
-	border: 25px solid #A86A3E;
+	border: 25px solid #D96738;
 	border-style: groove;
-	box-shadow:  10px rgba(0,0,0,.3);
-
+	box-shadow: 0 10px 20px black;
 }
 
 .wrapper {
-	background-color: ;
+	background-color: #EFE6B6;
 }
+
 
 .content {
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+.content h2 {
+	font-size: 35px;
+}
+
+.content p {
+	font-size: 20px;
+	text-align: justify;
+	padding: 20px;
+	line-height: 1.5;
+}
+
+.content ul {
+	font-size: 20px;
+	list-style: none;
+	padding: 20px;
+	line-height: 1.5;
 }
 
 .big-image {
@@ -46,8 +63,10 @@ header img {
 
 .caption {
 	font-size: 16px;
-	color: lightgray;
+	color: #1794A0;
 	font-style: italic;
+	margin-bottom: 30px;
+	text-align: center;
 }
 
 ul {
@@ -57,10 +76,10 @@ ul {
 }
 
 .quotes li {
-	background-color: #EFE6B6;
+	background-color: #FBF7E1;
 	padding: 10px 10px 37px 10px;
 	margin: 20px;
-	border: 4px solid;
+	border-radius: 20px;
 }
 
 .quotes img {
